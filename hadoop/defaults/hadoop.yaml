@@ -5,8 +5,9 @@ hadoop:
     ).body.split('-')[1]
   }}
   source:
-    sum: https://dist.apache.org/repos/dist/release/hadoop/common
+    sum: https://archive.apache.org/dist/hadoop/common
     mirrors:
+      - https://dist.apache.org/repos/dist/release/hadoop/common
       - http://apache.claz.org/hadoop/common
       - http://apache.cs.utah.edu/hadoop/common
       - http://apache.mesi.com.ar/hadoop/common
